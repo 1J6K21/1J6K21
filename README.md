@@ -1,4 +1,4 @@
-## Jonathan Kalsky
+# Jonathan Kalsky
 
 <br>
 
@@ -13,7 +13,9 @@
 </a>
 
 </div>
+<br></br>
 
+### 🌐 Public Repositories
 ---
 
 ### 📊 GitHub Stats
@@ -21,8 +23,6 @@
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=1J6K21&theme=default)
 
 ---
-
-### 🌐 Public Repositories
 
 <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=1J6K21&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10" />
 
