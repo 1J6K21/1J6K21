@@ -17,7 +17,17 @@
 </a>
 
 </div>
-<br></br>
+<br />
+
+### 📄 Resume
+---
+<a href="https://github.com/1J6K21/1J6K21/blob/main/Jonthan_Kalsky.pdf" target="_blank">
+<img src="https://github.com/1J6K21/1J6K21/blob/main/resume_4822911.png" width="150"/>
+</a> <br />      
+
+
+
+<br />
 
 ### 🌐 Public Repositories
 ---
