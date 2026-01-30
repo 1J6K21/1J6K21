@@ -13,7 +13,7 @@
 </a>
 
 <a href="https://devpost.com/1J6K21?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank">
-  <img src="https://github.com/1J6K21/1J6K21/blob/main/devpost.svg" alt="Devpost: jonathan-kalsky" height="32" style="display:block;" />
+  <img src="https://github.com/1J6K21/1J6K21/blob/main/devpost.svg" alt="Devpost: jonathan-kalsky" height="28" style="background-color: #5c665f;" style="display:block;" />
 </a>
 
 </div>
