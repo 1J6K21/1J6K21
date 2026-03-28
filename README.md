@@ -31,7 +31,8 @@
 
 ### 📄 Resume
 ---
-<a href="https://github.com/1J6K21/1J6K21/blob/main/Jonthan_Kalsky.pdf" target="_blank">
+<!-- <a href="https://github.com/1J6K21/1J6K21/blob/main/Jonthan_Kalsky.pdf" target="_blank"> -->
+<a href="https://www.linkedin.com/in/jonathan-kalsky/overlay/1773257916301/single-media-viewer/?profileId=ACoAAF3oEL0B3jv6PlXT3NQvFFz_7H-boqm7dOM" target="_blank">
 <img src="https://github.com/1J6K21/1J6K21/blob/main/resume_4822911.png" width="150"/>
 </a> <br />      
 
