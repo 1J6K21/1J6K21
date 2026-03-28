@@ -46,8 +46,17 @@
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=1J6K21&theme=default)
 
+### 🔒 Private Repositories
 ---
+#### NexoDeck 🧠
+* Website to transform lecture presentations to tailored resources, and part of a shared annex
+* Web App
 
+#### Pixedify 👨‍🎨
+* Lightweight Photoediting app powered by AI
+* Microservice Architecture
+* iOS App
+<br />
 <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=1J6K21&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10" />
 
 <br><br>
