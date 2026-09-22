@@ -1,0 +1,78 @@
+<svg fill="none" viewBox="0 0 1000 240" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1017" />
+      <stop offset="100%" stop-color="#06080c" />
+    </linearGradient>
+    <linearGradient id="maroon-edge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#500000" stop-opacity="0" />
+      <stop offset="50%" stop-color="#8a0c1a" />
+      <stop offset="100%" stop-color="#500000" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow-maroon" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="grid-bg" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', system-ui, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace; }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1000" height="240" rx="14" fill="url(#sky-bg)" stroke="#1e293b" stroke-width="1.2" />
+  <rect width="1000" height="240" rx="14" fill="url(#grid-bg)" />
+  <line x1="40" y1="239" x2="960" y2="239" stroke="url(#maroon-edge)" stroke-width="2" />
+
+  <!-- Left Identity Block -->
+  <g transform="translate(45, 34)">
+    <rect width="335" height="22" rx="4" fill="#090d13" stroke="#334155" stroke-width="0.8" />
+    <rect width="4" height="22" rx="1" fill="#500000" />
+    <text x="14" y="15" fill="#fca5a5" font-size="10" font-weight="700" class="mono">TEXAS A&amp;M // CS ('29) · 3.87 GPA · DEAN'S LIST</text>
+
+    <text x="0" y="66" fill="#ffffff" font-size="34" font-weight="900" class="sans" letter-spacing="-0.8">JONATHAN KALSKY</text>
+    <text x="0" y="90" fill="#94a3b8" font-size="13" class="sans">
+      Software Engineering <tspan fill="#500000">·</tspan> Systems <tspan fill="#500000">·</tspan> AI &amp; Compute Infrastructure
+    </text>
+
+    <g transform="translate(0, 112)">
+      <rect width="430" height="30" rx="5" fill="#070a0f" stroke="#1e293b" stroke-width="0.8" />
+      <circle cx="15" cy="15" r="3.5" fill="#500000" />
+      <circle cx="15" cy="15" r="1.5" fill="#ff4d6d" />
+      <text x="28" y="19" fill="#cbd5e1" font-size="10.5" class="mono">
+        CURRENT: <tspan fill="#ffffff" font-weight="700">Growth Specialist (Part-Time)</tspan>, Quali
+      </text>
+    </g>
+
+    <g transform="translate(0, 152)">
+      <rect width="210" height="24" rx="4" fill="#090d14" stroke="#1e293b" stroke-width="0.8" />
+      <text x="12" y="16" fill="#38bdf8" font-size="9.5" font-weight="700" class="mono">CISCO STACK AUTOMATION</text>
+
+      <rect x="220" y="0" width="210" height="24" rx="4" fill="#090d14" stroke="#1e293b" stroke-width="0.8" />
+      <text x="232" y="16" fill="#e2e8f0" font-size="9.5" font-weight="700" class="mono">HACKATHON AWARDS</text>
+    </g>
+  </g>
+
+  <!-- Right Visual Zone -->
+  <g id="tesseract-vision"><ellipse cx="740" cy="115" rx="130" ry="85" fill="#500000" opacity="0.32" filter="url(#glow-maroon)"/><line x1="740.0" y1="115.0" x2="740.0" y2="115.0" stroke="#ff4d6d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.7"/><line x1="740.0" y1="-29.0" x2="740.0" y2="43.0" stroke="#ff4d6d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.7"/><line x1="615.3" y1="187.0" x2="677.6" y2="151.0" stroke="#ff4d6d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.7"/><line x1="615.3" y1="43.0" x2="677.6" y2="79.0" stroke="#ff4d6d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.7"/><line x1="864.7" y1="187.0" x2="802.4" y2="151.0" stroke="#ff4d6d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.7"/><line x1="864.7" y1="43.0" x2="802.4" y2="79.0" stroke="#ff4d6d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.7"/><line x1="740.0" y1="259.0" x2="740.0" y2="187.0" stroke="#ff4d6d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.7"/><line x1="740.0" y1="115.0" x2="740.0" y2="115.0" stroke="#ff4d6d" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.7"/><line x1="740.0" y1="115.0" x2="740.0" y2="-29.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="740.0" y1="-29.0" x2="615.3" y2="43.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="615.3" y1="43.0" x2="615.3" y2="187.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="615.3" y1="187.0" x2="740.0" y2="115.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="864.7" y1="187.0" x2="864.7" y2="43.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="864.7" y1="43.0" x2="740.0" y2="115.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="740.0" y1="115.0" x2="740.0" y2="259.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="740.0" y1="259.0" x2="864.7" y2="187.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="740.0" y1="115.0" x2="864.7" y2="187.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="740.0" y1="-29.0" x2="864.7" y2="43.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="615.3" y1="187.0" x2="740.0" y2="259.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><line x1="615.3" y1="43.0" x2="740.0" y2="115.0" stroke="#38bdf8" stroke-width="1.4" opacity="0.8"/><polygon points="740.0,115.0 740.0,43.0 677.6,79.0 677.6,151.0" fill="#6b000e" fill-opacity="0.5" stroke="#ffffff" stroke-width="1.0" /><polygon points="802.4,151.0 802.4,79.0 740.0,115.0 740.0,187.0" fill="#6b000e" fill-opacity="0.5" stroke="#ffffff" stroke-width="1.0" /><polygon points="740.0,115.0 740.0,43.0 802.4,79.0 802.4,151.0" fill="#6b000e" fill-opacity="0.5" stroke="#ffffff" stroke-width="1.0" /><polygon points="677.6,151.0 677.6,79.0 740.0,115.0 740.0,187.0" fill="#6b000e" fill-opacity="0.5" stroke="#ffffff" stroke-width="1.0" /><circle cx="740.0" cy="115.0" r="3" fill="#38bdf8" stroke="#090d14" stroke-width="1"/><circle cx="740.0" cy="-29.0" r="3" fill="#38bdf8" stroke="#090d14" stroke-width="1"/><circle cx="615.3" cy="187.0" r="3" fill="#38bdf8" stroke="#090d14" stroke-width="1"/><circle cx="615.3" cy="43.0" r="3" fill="#38bdf8" stroke="#090d14" stroke-width="1"/><circle cx="864.7" cy="187.0" r="3" fill="#38bdf8" stroke="#090d14" stroke-width="1"/><circle cx="864.7" cy="43.0" r="3" fill="#38bdf8" stroke="#090d14" stroke-width="1"/><circle cx="740.0" cy="259.0" r="3" fill="#38bdf8" stroke="#090d14" stroke-width="1"/><circle cx="740.0" cy="115.0" r="3" fill="#38bdf8" stroke="#090d14" stroke-width="1"/><circle cx="740.0" cy="115.0" r="2.5" fill="#ffffff" stroke="#ff4d6d" stroke-width="1"/><circle cx="740.0" cy="43.0" r="2.5" fill="#ffffff" stroke="#ff4d6d" stroke-width="1"/><circle cx="677.6" cy="151.0" r="2.5" fill="#ffffff" stroke="#ff4d6d" stroke-width="1"/><circle cx="677.6" cy="79.0" r="2.5" fill="#ffffff" stroke="#ff4d6d" stroke-width="1"/><circle cx="802.4" cy="151.0" r="2.5" fill="#ffffff" stroke="#ff4d6d" stroke-width="1"/><circle cx="802.4" cy="79.0" r="2.5" fill="#ffffff" stroke="#ff4d6d" stroke-width="1"/><circle cx="740.0" cy="187.0" r="2.5" fill="#ffffff" stroke="#ff4d6d" stroke-width="1"/><circle cx="740.0" cy="115.0" r="2.5" fill="#ffffff" stroke="#ff4d6d" stroke-width="1"/>
+    <g class="mono" font-size="7.5" fill="#94a3b8">
+      <path d="M 580 25 L 580 14 L 594 14" stroke="#38bdf8" stroke-width="1" fill="none"/>
+      <path d="M 900 25 L 900 14 L 886 14" stroke="#38bdf8" stroke-width="1" fill="none"/>
+      <path d="M 580 195 L 580 206 L 594 206" stroke="#38bdf8" stroke-width="1" fill="none"/>
+      <path d="M 900 195 L 900 206 L 886 206" stroke="#38bdf8" stroke-width="1" fill="none"/>
+
+      <text x="580" y="10" fill="#38bdf8">TESSERACT // 4D → ℝ³ STEREOGRAPHIC PROJECTION</text>
+      <text x="900" y="10" text-anchor="end" fill="#fca5a5">CLIFFORD_ROTATION // SO(4)</text>
+      <text x="580" y="222" fill="#64748b">VERTICES: 16 · EDGES: 32 · FACETS: 24</text>
+      <text x="900" y="222" text-anchor="end" fill="#38bdf8">METRIC: η_μν = diag(-1,1,1,1)</text>
+    </g>
+    </g>
+</svg>

@@ -1,0 +1,144 @@
+<svg fill="none" viewBox="0 0 1000 480" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="card-surface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121822" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#080b10" stop-opacity="0.98" />
+    </linearGradient>
+    <filter id="shadow-3d" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="8" dy="16" stdDeviation="12" flood-color="#000000" flood-opacity="0.85" />
+    </filter>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', system-ui, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace; }
+    .card-title { font-size: 15px; font-weight: 800; fill: #ffffff; }
+    .card-desc { font-size: 11px; fill: #94a3b8; line-height: 1.35; }
+    a { cursor: pointer; text-decoration: none; }
+    a:hover .face { fill: #18212e; }
+  </style>
+
+  <!-- ================= 2x2 ARCHITECTURE REPOSITORIES ================= -->
+
+  <!-- CARD 1: Cisco Stack Automation (Top Left) -->
+  <a xlink:href="https://github.com/1J6K21" target="_blank">
+    <g transform="translate(10, 10)" filter="url(#shadow-3d)">
+      <!-- 3D Bevel Edge -->
+      <polygon points="465,0 475,8 475,215 465,205" fill="#06090e" />
+      <polygon points="0,205 465,205 475,215 10,215" fill="#020406" />
+      
+      <!-- Face -->
+      <rect class="face" width="465" height="205" rx="8" fill="url(#card-surface)" stroke="#1e293b" stroke-width="1.2" />
+      <rect width="4" height="205" rx="2" fill="#0284c7" />
+
+      <g transform="translate(24, 26)">
+        <text x="0" y="0" class="sans card-title">Cisco Stack Automation</text>
+        <rect x="280" y="-14" width="140" height="19" rx="3" fill="#0c4a6e" fill-opacity="0.4" stroke="#0284c7" stroke-width="0.8" />
+        <text x="288" y="-1" fill="#7dd3fc" font-size="9" font-weight="700" class="mono">PLATFORM ENGINEERING</text>
+
+        <text x="0" y="22" fill="#0284c7" font-size="10.5" font-weight="700" class="mono">AWS · Terraform · vCenter · Intersight · Python</text>
+
+        <g transform="translate(0, 34)">
+          <rect width="415" height="25" rx="4" fill="#06090e" stroke="#1e293b" stroke-width="0.8" />
+          <text x="10" y="16" fill="#cbd5e1" font-size="10" class="mono">OUTCOME: <tspan fill="#38bdf8" font-weight="700">Zero-drift verification across physical clusters</tspan></text>
+        </g>
+
+        <g transform="translate(0, 78)">
+          <text x="0" y="0" class="sans card-desc">• Preflight automation preventing cluster configuration drift.</text>
+          <text x="0" y="18" class="sans card-desc">• Multi-layer diagnostic pipelines from bare silicon to vCenter.</text>
+          <text x="0" y="36" class="sans card-desc">• Automated provisioning and teardown loops built into CI/CD.</text>
+        </g>
+      </g>
+    </g>
+  </a>
+
+  <!-- CARD 2: LLM Hypervisor (Top Right) -->
+  <a xlink:href="https://github.com/1J6K21/LLM-Hypervisor-POC" target="_blank">
+    <g transform="translate(515, 10)" filter="url(#shadow-3d)">
+      <polygon points="465,0 475,8 475,215 465,205" fill="#06090e" />
+      <polygon points="0,205 465,205 475,215 10,215" fill="#020406" />
+
+      <rect class="face" width="465" height="205" rx="8" fill="url(#card-surface)" stroke="#1e293b" stroke-width="1.2" />
+      <rect width="4" height="205" rx="2" fill="#d97706" />
+
+      <g transform="translate(24, 26)">
+        <text x="0" y="0" class="sans card-title">LLM Hypervisor</text>
+        <rect x="290" y="-14" width="128" height="19" rx="3" fill="#451a03" fill-opacity="0.5" stroke="#d97706" stroke-width="0.8" />
+        <text x="298" y="-1" fill="#fde68a" font-size="9" font-weight="700" class="mono">SYSTEMS RESEARCH</text>
+
+        <text x="0" y="22" fill="#f59e0b" font-size="10.5" font-weight="700" class="mono">Swift · SwiftUI · macOS POSIX · AI Scheduling</text>
+
+        <g transform="translate(0, 34)">
+          <rect width="415" height="25" rx="4" fill="#06090e" stroke="#1e293b" stroke-width="0.8" />
+          <text x="10" y="16" fill="#cbd5e1" font-size="10" class="mono">OUTCOME: <tspan fill="#fbbf24" font-weight="700">Dynamic RAM reclaim under memory pressure</tspan></text>
+        </g>
+
+        <g transform="translate(0, 78)">
+          <text x="0" y="0" class="sans card-desc">• Fine-grained hardware orchestration for local LLMs under tight RAM.</text>
+          <text x="0" y="18" class="sans card-desc">• Non-destructive state freeze of background apps during peak bursts.</text>
+          <text x="0" y="36" class="sans card-desc">• Hardware-aware scheduling balancing prompt latency and UX.</text>
+        </g>
+      </g>
+    </g>
+  </a>
+
+  <!-- CARD 3: Aggie Course Explorer (Bottom Left) -->
+  <a xlink:href="https://github.com/1J6K21" target="_blank">
+    <g transform="translate(10, 245)" filter="url(#shadow-3d)">
+      <polygon points="465,0 475,8 475,215 465,205" fill="#06090e" />
+      <polygon points="0,205 465,205 475,215 10,215" fill="#020406" />
+
+      <rect class="face" width="465" height="205" rx="8" fill="url(#card-surface)" stroke="#1e293b" stroke-width="1.2" />
+      <rect width="4" height="205" rx="2" fill="#059669" />
+
+      <g transform="translate(24, 26)">
+        <text x="0" y="0" class="sans card-title">Aggie Course Explorer</text>
+        <rect x="290" y="-14" width="128" height="19" rx="3" fill="#064e3b" fill-opacity="0.5" stroke="#059669" stroke-width="0.8" />
+        <text x="298" y="-1" fill="#6ee7b7" font-size="9" font-weight="700" class="mono">TEAM LEAD // PRODUCT</text>
+
+        <text x="0" y="22" fill="#10b981" font-size="10.5" font-weight="700" class="mono">React · TypeScript · Python · PostgreSQL</text>
+
+        <g transform="translate(0, 34)">
+          <rect width="415" height="25" rx="4" fill="#06090e" stroke="#1e293b" stroke-width="0.8" />
+          <text x="10" y="16" fill="#cbd5e1" font-size="10" class="mono">OUTCOME: <tspan fill="#34d399" font-weight="700">Topological graph for university curricula</tspan></text>
+        </g>
+
+        <g transform="translate(0, 78)">
+          <text x="0" y="0" class="sans card-desc">• Prerequisite relationship parser building interactive DAG topologies.</text>
+          <text x="0" y="18" class="sans card-desc">• Query optimization over large relational degree requirements.</text>
+          <text x="0" y="36" class="sans card-desc">• Technical leadership: directed architecture milestones &amp; CLI debuggers.</text>
+        </g>
+      </g>
+    </g>
+  </a>
+
+  <!-- CARD 4: Cognitive Routines (Bottom Right) -->
+  <a xlink:href="https://github.com/1J6K21" target="_blank">
+    <g transform="translate(515, 245)" filter="url(#shadow-3d)">
+      <polygon points="465,0 475,8 475,215 465,205" fill="#06090e" />
+      <polygon points="0,205 465,205 475,215 10,215" fill="#020406" />
+
+      <rect class="face" width="465" height="205" rx="8" fill="url(#card-surface)" stroke="#1e293b" stroke-width="1.2" />
+      <rect width="4" height="205" rx="2" fill="#7c3aed" />
+
+      <g transform="translate(24, 26)">
+        <text x="0" y="0" class="sans card-title">Cognitive Routines</text>
+        <rect x="295" y="-14" width="122" height="19" rx="3" fill="#3b0764" fill-opacity="0.5" stroke="#7c3aed" stroke-width="0.8" />
+        <text x="303" y="-1" fill="#d8b4fe" font-size="9" font-weight="700" class="mono">AI ARCHITECTURE</text>
+
+        <text x="0" y="22" fill="#a855f7" font-size="10.5" font-weight="700" class="mono">Python · Agent Systems · GitHub Pages</text>
+
+        <g transform="translate(0, 34)">
+          <rect width="415" height="25" rx="4" fill="#06090e" stroke="#1e293b" stroke-width="0.8" />
+          <text x="10" y="16" fill="#cbd5e1" font-size="10" class="mono">OUTCOME: <tspan fill="#c084fc" font-weight="700">Dynamic task-routing reasoning chains</tspan></text>
+        </g>
+
+        <g transform="translate(0, 78)">
+          <text x="0" y="0" class="sans card-desc">• Software-defined workflows mitigating LLM hallucination paths.</text>
+          <text x="0" y="18" class="sans card-desc">• Dynamic routing dispatch conditioning steps on problem complexity.</text>
+          <text x="0" y="36" class="sans card-desc">• Open-source research artifacts and benchmark dashboards.</text>
+        </g>
+      </g>
+    </g>
+  </a>
+</svg>

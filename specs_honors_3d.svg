@@ -1,0 +1,109 @@
+<svg fill="none" viewBox="0 0 1000 350" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="panel-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f141c" />
+      <stop offset="100%" stop-color="#070a0e" />
+    </linearGradient>
+    <linearGradient id="cell-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161f2d" />
+      <stop offset="100%" stop-color="#0b1017" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', ui-sans-serif, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace; }
+    .label { font-size: 10.5px; font-weight: 700; fill: #fca5a5; letter-spacing: 1.5px; }
+    .item-title { font-size: 12.5px; font-weight: 700; fill: #ffffff; }
+    .item-sub { font-size: 10px; fill: #94a3b8; }
+  </style>
+
+  <!-- Container Panel -->
+  <rect width="1000" height="350" rx="14" fill="url(#panel-bg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- ================= LEFT: PRODUCTION BUILDS ================= -->
+  <g transform="translate(35, 30)">
+    <text x="0" y="0" class="mono label">02 // SYSTEMS &amp; PRODUCTION BUILDS</text>
+
+    <!-- NexoDeck -->
+    <g transform="translate(0, 18)">
+      <rect width="450" height="80" rx="6" fill="url(#cell-bg)" stroke="#1e293b" stroke-width="0.8" />
+      <rect width="3" height="80" fill="#6366f1" />
+      <text x="16" y="24" class="sans item-title">NexoDeck — Concurrency &amp; LaTeX Engine</text>
+      <rect x="350" y="10" width="84" height="18" rx="3" fill="#1e1b4b" stroke="#6366f1" stroke-width="0.8" />
+      <text x="358" y="22" fill="#a5b4fc" font-size="9" font-weight="700" class="mono">WEB APP</text>
+      <text x="16" y="44" class="sans item-sub">Converts dense lecture presentations into active learning systems.</text>
+      <text x="16" y="58" class="sans item-sub">Promise concurrency pools, context caching, LaTeX rendering, API telemetry.</text>
+    </g>
+
+    <!-- Pixedify -->
+    <g transform="translate(0, 110)">
+      <rect width="450" height="80" rx="6" fill="url(#cell-bg)" stroke="#1e293b" stroke-width="0.8" />
+      <rect width="3" height="80" fill="#10b981" />
+      <text x="16" y="24" class="sans item-title">Pixedify — Neural iOS Photo Suite</text>
+      <rect x="350" y="10" width="84" height="18" rx="3" fill="#064e3b" stroke="#10b981" stroke-width="0.8" />
+      <text x="358" y="22" fill="#6ee7b7" font-size="9" font-weight="700" class="mono">SWIFT / AI</text>
+      <text x="16" y="44" class="sans item-sub">Microservice-backed computational photography application for iOS.</text>
+      <text x="16" y="58" class="sans item-sub">Asynchronous AI transformation pipelines, Pinecone vector embeddings &amp; search.</text>
+    </g>
+
+    <!-- Swift ML Lab -->
+    <g transform="translate(0, 202)">
+      <rect width="450" height="80" rx="6" fill="url(#cell-bg)" stroke="#1e293b" stroke-width="0.8" />
+      <rect width="3" height="80" fill="#f59e0b" />
+      <text x="16" y="24" class="sans item-title">Swift ML Lab — On-Device CoreML</text>
+      <rect x="350" y="10" width="84" height="18" rx="3" fill="#451a03" stroke="#f59e0b" stroke-width="0.8" />
+      <text x="358" y="22" fill="#fde68a" font-size="9" font-weight="700" class="mono">APPLE ML</text>
+      <text x="16" y="44" class="sans item-sub">Native touch handwriting ingestion suite paired with CoreML neural training.</text>
+      <text x="16" y="58" class="sans item-sub">Trains digit classifiers locally on Apple Silicon for instantaneous inference.</text>
+    </g>
+  </g>
+
+  <!-- Center Divider -->
+  <line x1="515" y1="25" x2="515" y2="325" stroke="#1e293b" stroke-width="1" />
+
+  <!-- ================= RIGHT: VERIFIED HONORS ================= -->
+  <g transform="translate(545, 30)">
+    <text x="0" y="0" class="mono label">03 // VERIFIED ACCOLADES &amp; HONORS</text>
+
+    <!-- Honor 1 -->
+    <g transform="translate(0, 18)">
+      <rect width="420" height="42" rx="6" fill="url(#cell-bg)" stroke="#1e293b" stroke-width="0.8" />
+      <circle cx="16" cy="21" r="3" fill="#500000" />
+      <text x="28" y="18" fill="#ffffff" font-size="12" font-weight="700" class="sans">Texas A&amp;M Dean's Honor Roll</text>
+      <text x="28" y="32" fill="#94a3b8" font-size="10" class="mono">3.87 GPA · Computer Science ('29)</text>
+    </g>
+
+    <!-- Honor 2 -->
+    <g transform="translate(0, 68)">
+      <rect width="420" height="42" rx="6" fill="url(#cell-bg)" stroke="#1e293b" stroke-width="0.8" />
+      <circle cx="16" cy="21" r="3" fill="#22c55e" />
+      <text x="28" y="18" fill="#ffffff" font-size="12" font-weight="700" class="sans">1st Place Overall — Build4Good Hackathon</text>
+      <text x="28" y="32" fill="#94a3b8" font-size="10" class="mono">Full-stack software engineering championship</text>
+    </g>
+
+    <!-- Honor 3 -->
+    <g transform="translate(0, 118)">
+      <rect width="420" height="42" rx="6" fill="url(#cell-bg)" stroke="#1e293b" stroke-width="0.8" />
+      <circle cx="16" cy="21" r="3" fill="#38bdf8" />
+      <text x="28" y="18" fill="#ffffff" font-size="12" font-weight="700" class="sans">Best Voice/AI Track — Datathon</text>
+      <text x="28" y="32" fill="#94a3b8" font-size="10" class="mono">ElevenLabs API competitive track winner</text>
+    </g>
+
+    <!-- Honor 4 -->
+    <g transform="translate(0, 168)">
+      <rect width="420" height="42" rx="6" fill="url(#cell-bg)" stroke="#1e293b" stroke-width="0.8" />
+      <circle cx="16" cy="21" r="3" fill="#f59e0b" />
+      <text x="28" y="18" fill="#ffffff" font-size="12" font-weight="700" class="sans">Best Member Award — Aggie Coding Club</text>
+      <text x="28" y="32" fill="#94a3b8" font-size="10" class="mono">Excellence in project team leadership</text>
+    </g>
+
+    <!-- Honor 5 -->
+    <g transform="translate(0, 218)">
+      <rect width="420" height="42" rx="6" fill="url(#cell-bg)" stroke="#1e293b" stroke-width="0.8" />
+      <circle cx="16" cy="21" r="3" fill="#a855f7" />
+      <text x="28" y="18" fill="#ffffff" font-size="12" font-weight="700" class="sans">2nd Place Team — Tidal Hack</text>
+      <text x="28" y="32" fill="#94a3b8" font-size="10" class="mono">Rapid competitive software development</text>
+    </g>
+  </g>
+</svg>
