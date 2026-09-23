@@ -62,9 +62,9 @@
   <!-- Center Divider -->
   <line x1="515" y1="25" x2="515" y2="325" stroke="#1e293b" stroke-width="1" />
 
-  <!-- ================= RIGHT: VERIFIED HONORS ================= -->
+  <!-- ================= RIGHT: HONORS & AWARDS ================= -->
   <g transform="translate(545, 30)">
-    <text x="0" y="0" class="mono label">03 // VERIFIED ACCOLADES &amp; HONORS</text>
+    <text x="0" y="0" class="mono label">03 // HONORS &amp; AWARDS</text>
 
     <!-- Honor 1 -->
     <g transform="translate(0, 18)">

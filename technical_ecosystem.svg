@@ -23,8 +23,7 @@
 
   <!-- Section Header -->
   <g transform="translate(35, 26)">
-    <text x="0" y="0" class="mono title">03 // TECHNICAL STACK &amp; FULL LANGUAGE ECOSYSTEM</text>
-    <text x="930" y="0" text-anchor="end" fill="#64748b" font-size="9" class="mono">VERIFIED COMPETENCIES · 10+ LANGUAGES</text>
+    <text x="0" y="0" class="mono title">03 // TECHNICAL STACK &amp; LANGUAGES</text>
   </g>
 
   <!-- ================= 3 CORE DOMAIN COLUMNS ================= -->
@@ -91,13 +90,16 @@
         <text x="192" y="13.5" fill="#94a3b8" class="mono tag-mono">Haskell</text>
       </g>
 
-      <!-- Certification & Spoken Note -->
+      <!-- Certification & Spoken Note (Multi-line, NO overflow!) -->
       <g transform="translate(0, 110)">
-        <text x="0" y="0" fill="#cbd5e1" font-size="9" class="mono">
+        <text x="0" y="0" fill="#cbd5e1" font-size="8.5" class="mono">
           <tspan fill="#fca5a5">CERTIFIED:</tspan> Java · Swift · R · OSHA-10
         </text>
-        <text x="0" y="13" fill="#64748b" font-size="8.5" class="mono">
-          SPOKEN: English (Native) · Hebrew (Native) · Mandarin (~HSK2)
+        <text x="0" y="14" fill="#cbd5e1" font-size="8.5" class="mono">
+          <tspan fill="#94a3b8">SPOKEN:</tspan> English (Native) · Hebrew (Native)
+        </text>
+        <text x="0" y="27" fill="#64748b" font-size="8.5" class="mono">
+          Mandarin Chinese (~HSK2)
         </text>
       </g>
     </g>
@@ -112,42 +114,48 @@
       <text x="0" y="0" class="sans col-title">SYSTEMS &amp; CLOUD INFRA</text>
       <text x="0" y="14" fill="#94a3b8" font-size="9" class="mono">Production platforms &amp; automation</text>
 
-      <!-- Cloud Platforms -->
+      <!-- Infrastructure & Cloud Platforms -->
       <g transform="translate(0, 28)">
-        <rect x="0" y="0" width="46" height="20" rx="3" fill="#082f49" stroke="#0284c7" stroke-width="0.7"/>
-        <text x="8" y="13.5" fill="#7dd3fc" class="mono tag-mono">AWS</text>
+        <!-- Cisco Intersight (HIGHLIGHTED) -->
+        <rect x="0" y="0" width="126" height="20" rx="3" fill="#082f49" stroke="#0284c7" stroke-width="0.7"/>
+        <text x="8" y="13.5" fill="#7dd3fc" class="mono tag-mono">Cisco Intersight</text>
 
-        <rect x="52" y="0" width="82" height="20" rx="3" fill="#082f49" stroke="#0284c7" stroke-width="0.7"/>
-        <text x="60" y="13.5" fill="#7dd3fc" class="mono tag-mono">Terraform</text>
-
-        <rect x="140" y="0" width="112" height="20" rx="3" fill="#082f49" stroke="#0284c7" stroke-width="0.7"/>
-        <text x="148" y="13.5" fill="#7dd3fc" class="mono tag-mono">VMware vCenter</text>
+        <!-- VMware vCenter (HIGHLIGHTED) -->
+        <rect x="132" y="0" width="118" height="20" rx="3" fill="#082f49" stroke="#0284c7" stroke-width="0.7"/>
+        <text x="140" y="13.5" fill="#7dd3fc" class="mono tag-mono">VMware vCenter</text>
       </g>
 
-      <!-- Infrastructure Systems -->
+      <!-- IaC, Cloud & Containers -->
       <g transform="translate(0, 54)">
-        <rect x="0" y="0" width="124" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
-        <text x="8" y="13.5" fill="#e2e8f0" class="mono tag-mono">Cisco Intersight</text>
+        <!-- Terraform (HIGHLIGHTED) -->
+        <rect x="0" y="0" width="76" height="20" rx="3" fill="#082f49" stroke="#0284c7" stroke-width="0.7"/>
+        <text x="8" y="13.5" fill="#7dd3fc" class="mono tag-mono">Terraform</text>
 
-        <rect x="130" y="0" width="60" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
-        <text x="138" y="13.5" fill="#e2e8f0" class="mono tag-mono">CI/CD</text>
+        <!-- AWS (Neutral) -->
+        <rect x="82" y="0" width="46" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
+        <text x="90" y="13.5" fill="#e2e8f0" class="mono tag-mono">AWS</text>
 
-        <rect x="196" y="0" width="60" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
-        <text x="204" y="13.5" fill="#e2e8f0" class="mono tag-mono">Docker</text>
+        <!-- CI/CD (Neutral) -->
+        <rect x="134" y="0" width="54" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
+        <text x="142" y="13.5" fill="#e2e8f0" class="mono tag-mono">CI/CD</text>
+
+        <!-- Docker (Neutral) -->
+        <rect x="194" y="0" width="58" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
+        <text x="202" y="13.5" fill="#e2e8f0" class="mono tag-mono">Docker</text>
       </g>
 
       <!-- OS & Hardware -->
       <g transform="translate(0, 80)">
-        <rect x="0" y="0" width="138" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
+        <rect x="0" y="0" width="134" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
         <text x="8" y="13.5" fill="#94a3b8" class="mono tag-mono">macOS / Linux POSIX</text>
 
-        <rect x="144" y="0" width="112" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
-        <text x="152" y="13.5" fill="#94a3b8" class="mono tag-mono">Arduino Embedded</text>
+        <rect x="140" y="0" width="112" height="20" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.7"/>
+        <text x="148" y="13.5" fill="#94a3b8" class="mono tag-mono">Arduino Embedded</text>
       </g>
 
       <!-- Focus Summary -->
       <g transform="translate(0, 110)">
-        <text x="0" y="0" fill="#cbd5e1" font-size="9" class="mono">
+        <text x="0" y="0" fill="#cbd5e1" font-size="8.5" class="mono">
           <tspan fill="#38bdf8">EXPERIENCE:</tspan> Zero-drift validation, bare-metal
         </text>
         <text x="0" y="13" fill="#64748b" font-size="8.5" class="mono">
@@ -207,7 +215,7 @@
 
       <!-- Summary -->
       <g transform="translate(0, 110)">
-        <text x="0" y="0" fill="#cbd5e1" font-size="9" class="mono">
+        <text x="0" y="0" fill="#cbd5e1" font-size="8.5" class="mono">
           <tspan fill="#34d399">CAPABILITIES:</tspan> Concurrency pools, vector search,
         </text>
         <text x="0" y="13" fill="#64748b" font-size="8.5" class="mono">
