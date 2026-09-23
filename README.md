@@ -5,25 +5,18 @@
 
 <br/>
 
-<!-- ================= 02 // ARCHITECTURE & RESEARCH SYSTEMS (2x2) ================= -->
-<img src="./architecture_cards.svg" width="100%" alt="Selected Systems Architecture" />
+<!-- ================= 02 // FEATURED WORK & RESEARCH (2x2) ================= -->
+<img src="./architecture_cards.svg" width="100%" alt="Featured Work: Cisco Internship, Aggie Course Explorer, and Research" />
 
 <br/><br/>
 
-<!-- ================= 03 // TECHNICAL FOCUS & CORE ECOSYSTEM ================= -->
-<div align="center">
+<!-- ================= 03 // TECHNICAL STACK & FULL ECOSYSTEM ================= -->
+<img src="./technical_ecosystem.svg" width="100%" alt="Technical Stack and Full Language Ecosystem" />
 
-| Software Systems | Systems & Compute | Infrastructure |
-| :--- | :--- | :--- |
-| **Backend services, APIs, concurrency, data flows** | **Local LLM workloads, resource scheduling, macOS POSIX** | **AWS, Terraform, VMware vCenter, Cisco Intersight** |
-| React · TypeScript · Python · Swift · PostgreSQL | CPU & memory reallocation, local inference | Provisioning, validation, CI/CD pipelines |
+<br/><br/>
 
-</div>
-
-<br/>
-
-<!-- ================= 04 // PRODUCTION BUILDS & VERIFIED HONORS ================= -->
-<img src="./specs_honors_3d.svg" width="100%" alt="Production Builds and Honors" />
+<!-- ================= 04 // MY PROJECTS & VERIFIED HONORS ================= -->
+<img src="./specs_honors_3d.svg" width="100%" alt="My Projects and Verified Honors" />
 
 <br/>
 

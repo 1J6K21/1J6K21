@@ -23,7 +23,7 @@
 
   <!-- ================= LEFT: PRODUCTION BUILDS ================= -->
   <g transform="translate(35, 30)">
-    <text x="0" y="0" class="mono label">02 // SYSTEMS &amp; PRODUCTION BUILDS</text>
+    <text x="0" y="0" class="mono label">02 // MY PROJECTS &amp; SOFTWARE BUILDS</text>
 
     <!-- NexoDeck -->
     <g transform="translate(0, 18)">
